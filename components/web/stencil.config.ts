@@ -1,7 +1,7 @@
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'web',
+  namespace: 'db-ui',
   outputTargets: [
     {
       type: 'dist',
