@@ -2,7 +2,7 @@ import { Component, h, Prop } from '@stencil/core';
 
 @Component({
   tag: 'db-button',
-  styles: 'db-button.scss',
+  styleUrl: 'db-button.scss',
   shadow: true
 })
 export class Button {
