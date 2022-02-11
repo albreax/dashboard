@@ -1,0 +1,18 @@
+@import '../../../common/styles/font.scss';
+@import '../../../common/styles/colors.scss';
+
+:host([disabled]) {
+  pointer-events: none;
+}
+
+button {
+  font-family: $font-family;
+  border-radius: 3px;
+  background-color: $default-blue;
+  & :hover {
+    background-color: $hover-blue;
+  }
+  & :disabled {
+    background-color: $disabled-blue;
+  }
+}

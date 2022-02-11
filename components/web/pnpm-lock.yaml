@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@stencil/core': ^2.13.0
+  '@stencil/sass': ^1.5.2
   '@types/jest': ^27.0.3
   jest: ^27.4.5
   jest-cli: ^27.4.5
@@ -11,6 +12,7 @@ dependencies:
   '@stencil/core': 2.13.0
 
 devDependencies:
+  '@stencil/sass': 1.5.2_@stencil+core@2.13.0
   '@types/jest': 27.4.0
   jest: 27.5.1
   jest-cli: 27.5.1
@@ -588,6 +590,14 @@ packages:
     engines: {node: '>=12.10.0', npm: '>=6.0.0'}
     hasBin: true
     dev: false
+
+  /@stencil/sass/1.5.2_@stencil+core@2.13.0:
+    resolution: {integrity: sha512-nJ93pUSylsGsMX0eLmhxh1oEljcUjj5mYjhB9ziCdoaydAdjukrUoqDCC7tdVbOcBo2hKptQyWqCtETnBGYsXQ==}
+    peerDependencies:
+      '@stencil/core': '>=1.0.2'
+    dependencies:
+      '@stencil/core': 2.13.0
+    dev: true
 
   /@tootallnate/once/1.1.2:
     resolution: {integrity: sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==}
