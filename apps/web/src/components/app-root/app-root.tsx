@@ -20,7 +20,7 @@ export class AppRoot {
               <stencil-route url="/profile/:name" component="app-profile" />
             </stencil-route-switch>
           </stencil-router>
-          <my-component></my-component>
+          <db-button>bd-button</db-button>
         </main>
       </div>
     );

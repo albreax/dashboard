@@ -1,5 +1,5 @@
 {
-  "name": "dashboard",
+  "name": "@db-apps/dashboard",
   "private": true,
   "version": "0.0.1",
   "description": "Stencil App Starter",
@@ -9,6 +9,9 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@db-components/web": "workspace:*"
   },
   "devDependencies": {
     "@stencil/core": "^2.13.0",

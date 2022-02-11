@@ -11,6 +11,9 @@ export const config: Config = {
       type: 'www',
       // comment the following line to disable service workers in production
       serviceWorker: null,
+      copy: [
+        {src: '../node_modules/@db-components/web/dist', dest: 'assets/db-components'}
+      ],
       baseUrl: 'https://myapp.local/',
     },
   ],
